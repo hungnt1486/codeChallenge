@@ -13,7 +13,7 @@ import SwiftyJSON
 class MainViewController: BaseViewController {
 
     @IBOutlet weak var tbvMain: UITableView!
-    var listNews: [NewsModel] = []
+    var listNews: [NewsModel] = [] 
     
     lazy var refreshControl: UIRefreshControl = {
            let refreshControl = UIRefreshControl()
