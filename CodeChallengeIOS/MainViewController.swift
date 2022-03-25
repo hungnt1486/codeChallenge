@@ -15,8 +15,6 @@ class MainViewController: BaseViewController {
     @IBOutlet weak var tbvMain: UITableView!
     var listNews: [NewsModel] = []
     
-    
-    
     lazy var refreshControl: UIRefreshControl = {
            let refreshControl = UIRefreshControl()
            refreshControl.addTarget(self, action:
