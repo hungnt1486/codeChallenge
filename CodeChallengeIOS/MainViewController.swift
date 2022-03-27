@@ -12,6 +12,8 @@ import SwiftyJSON
 
 class MainViewController: BaseViewController {
 
+    
+    
     @IBOutlet weak var tbvMain: UITableView!
     var listNews: [NewsModel] = [] 
     
