@@ -1,4 +1,4 @@
 OS:OSX
-osx_image: xcode13.2
 language: swift
+osx_image: xcode13.2
 script: xcbuild clean build test
