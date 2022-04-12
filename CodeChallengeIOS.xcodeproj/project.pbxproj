@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		415F171D28055C3B0006773D /* CodeChallengeIOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415F171C28055C3B0006773D /* CodeChallengeIOSUITests.swift */; };
+		415F171F28055C3B0006773D /* CodeChallengeIOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415F171E28055C3B0006773D /* CodeChallengeIOSUITestsLaunchTests.swift */; };
+		415F172C28055C6A0006773D /* CodeChallengeIOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415F172B28055C6A0006773D /* CodeChallengeIOSTests.swift */; };
 		41C8F52824F81A0F00A0D89D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C8F52724F81A0F00A0D89D /* AppDelegate.swift */; };
 		41C8F53124F81A1100A0D89D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41C8F53024F81A1100A0D89D /* Assets.xcassets */; };
 		41C8F53424F81A1100A0D89D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41C8F53224F81A1100A0D89D /* LaunchScreen.storyboard */; };
@@ -26,8 +29,30 @@
 		AA3F082DF7966E8B9C42904E /* Pods_CodeChallengeIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 399080AC29FE608CE09DE180 /* Pods_CodeChallengeIOS.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		415F172028055C3B0006773D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41C8F51C24F81A0F00A0D89D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41C8F52324F81A0F00A0D89D;
+			remoteInfo = CodeChallengeIOS;
+		};
+		415F172D28055C6A0006773D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41C8F51C24F81A0F00A0D89D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41C8F52324F81A0F00A0D89D;
+			remoteInfo = CodeChallengeIOS;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		399080AC29FE608CE09DE180 /* Pods_CodeChallengeIOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CodeChallengeIOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		415F171A28055C3B0006773D /* CodeChallengeIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodeChallengeIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		415F171C28055C3B0006773D /* CodeChallengeIOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeChallengeIOSUITests.swift; sourceTree = "<group>"; };
+		415F171E28055C3B0006773D /* CodeChallengeIOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeChallengeIOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		415F172928055C6A0006773D /* CodeChallengeIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodeChallengeIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		415F172B28055C6A0006773D /* CodeChallengeIOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeChallengeIOSTests.swift; sourceTree = "<group>"; };
 		41C8F52424F81A0F00A0D89D /* CodeChallengeIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodeChallengeIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41C8F52724F81A0F00A0D89D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		41C8F53024F81A1100A0D89D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +76,20 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		415F171728055C3B0006773D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		415F172628055C6A0006773D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		41C8F52124F81A0F00A0D89D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -62,10 +101,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		415F171B28055C3B0006773D /* CodeChallengeIOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				415F171C28055C3B0006773D /* CodeChallengeIOSUITests.swift */,
+				415F171E28055C3B0006773D /* CodeChallengeIOSUITestsLaunchTests.swift */,
+			);
+			path = CodeChallengeIOSUITests;
+			sourceTree = "<group>";
+		};
+		415F172A28055C6A0006773D /* CodeChallengeIOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				415F172B28055C6A0006773D /* CodeChallengeIOSTests.swift */,
+			);
+			path = CodeChallengeIOSTests;
+			sourceTree = "<group>";
+		};
 		41C8F51B24F81A0F00A0D89D = {
 			isa = PBXGroup;
 			children = (
 				41C8F52624F81A0F00A0D89D /* CodeChallengeIOS */,
+				415F171B28055C3B0006773D /* CodeChallengeIOSUITests */,
+				415F172A28055C6A0006773D /* CodeChallengeIOSTests */,
 				41C8F52524F81A0F00A0D89D /* Products */,
 				834B4BB143C95E561C1FBAEA /* Pods */,
 				65CBEE7C20303D8747DAA3D4 /* Frameworks */,
@@ -76,6 +134,8 @@
 			isa = PBXGroup;
 			children = (
 				41C8F52424F81A0F00A0D89D /* CodeChallengeIOS.app */,
+				415F171A28055C3B0006773D /* CodeChallengeIOSUITests.xctest */,
+				415F172928055C6A0006773D /* CodeChallengeIOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -148,6 +208,42 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		415F171928055C3B0006773D /* CodeChallengeIOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 415F172428055C3B0006773D /* Build configuration list for PBXNativeTarget "CodeChallengeIOSUITests" */;
+			buildPhases = (
+				415F171628055C3B0006773D /* Sources */,
+				415F171728055C3B0006773D /* Frameworks */,
+				415F171828055C3B0006773D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				415F172128055C3B0006773D /* PBXTargetDependency */,
+			);
+			name = CodeChallengeIOSUITests;
+			productName = CodeChallengeIOSUITests;
+			productReference = 415F171A28055C3B0006773D /* CodeChallengeIOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		415F172828055C6A0006773D /* CodeChallengeIOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 415F172F28055C6A0006773D /* Build configuration list for PBXNativeTarget "CodeChallengeIOSTests" */;
+			buildPhases = (
+				415F172528055C6A0006773D /* Sources */,
+				415F172628055C6A0006773D /* Frameworks */,
+				415F172728055C6A0006773D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				415F172E28055C6A0006773D /* PBXTargetDependency */,
+			);
+			name = CodeChallengeIOSTests;
+			productName = CodeChallengeIOSTests;
+			productReference = 415F172928055C6A0006773D /* CodeChallengeIOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		41C8F52324F81A0F00A0D89D /* CodeChallengeIOS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 41C8F53824F81A1100A0D89D /* Build configuration list for PBXNativeTarget "CodeChallengeIOS" */;
@@ -173,10 +269,18 @@
 		41C8F51C24F81A0F00A0D89D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1140;
+				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1140;
 				ORGANIZATIONNAME = hungle;
 				TargetAttributes = {
+					415F171928055C3B0006773D = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 41C8F52324F81A0F00A0D89D;
+					};
+					415F172828055C6A0006773D = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 41C8F52324F81A0F00A0D89D;
+					};
 					41C8F52324F81A0F00A0D89D = {
 						CreatedOnToolsVersion = 11.4.1;
 					};
@@ -196,11 +300,27 @@
 			projectRoot = "";
 			targets = (
 				41C8F52324F81A0F00A0D89D /* CodeChallengeIOS */,
+				415F171928055C3B0006773D /* CodeChallengeIOSUITests */,
+				415F172828055C6A0006773D /* CodeChallengeIOSTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		415F171828055C3B0006773D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		415F172728055C6A0006773D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		41C8F52224F81A0F00A0D89D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -258,6 +378,23 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		415F171628055C3B0006773D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				415F171D28055C3B0006773D /* CodeChallengeIOSUITests.swift in Sources */,
+				415F171F28055C3B0006773D /* CodeChallengeIOSUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		415F172528055C6A0006773D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				415F172C28055C6A0006773D /* CodeChallengeIOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		41C8F52024F81A0F00A0D89D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -278,6 +415,19 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		415F172128055C3B0006773D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41C8F52324F81A0F00A0D89D /* CodeChallengeIOS */;
+			targetProxy = 415F172028055C3B0006773D /* PBXContainerItemProxy */;
+		};
+		415F172E28055C6A0006773D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41C8F52324F81A0F00A0D89D /* CodeChallengeIOS */;
+			targetProxy = 415F172D28055C6A0006773D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
 		41C8F53224F81A1100A0D89D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -290,6 +440,84 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		415F172228055C3B0006773D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hungle.CodeChallengeIOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CodeChallengeIOS;
+			};
+			name = Debug;
+		};
+		415F172328055C3B0006773D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hungle.CodeChallengeIOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CodeChallengeIOS;
+			};
+			name = Release;
+		};
+		415F173028055C6A0006773D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hungle.CodeChallengeIOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CodeChallengeIOS.app/CodeChallengeIOS";
+			};
+			name = Debug;
+		};
+		415F173128055C6A0006773D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hungle.CodeChallengeIOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CodeChallengeIOS.app/CodeChallengeIOS";
+			};
+			name = Release;
+		};
 		41C8F53624F81A1100A0D89D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -445,6 +673,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		415F172428055C3B0006773D /* Build configuration list for PBXNativeTarget "CodeChallengeIOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				415F172228055C3B0006773D /* Debug */,
+				415F172328055C3B0006773D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		415F172F28055C6A0006773D /* Build configuration list for PBXNativeTarget "CodeChallengeIOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				415F173028055C6A0006773D /* Debug */,
+				415F173128055C6A0006773D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		41C8F51F24F81A0F00A0D89D /* Build configuration list for PBXProject "CodeChallengeIOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
