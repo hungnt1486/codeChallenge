@@ -30,6 +30,5 @@ class BaseModel {
         offset = json["offset"].stringValue
 //        ResultCode =  CodeApi(rawValue: json["ResultCode"].intValue)
 //        MessageInfo = json["MessageInfo"].stringValue
-        
     }
 }
