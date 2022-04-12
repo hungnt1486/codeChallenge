@@ -9,3 +9,5 @@ notifications:
             - hung@modmo.io
         on_success: always
         on_failure: always
+        
+podfile: path/to/Podfile
