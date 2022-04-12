@@ -62,6 +62,7 @@ class MainViewController: BaseViewController {
     }
     
     func setupTableView(){
+        self.view.backgroundColor = .purple
         self.tbvMain.register(UINib(nibName: "MainTableViewCell", bundle: nil), forCellReuseIdentifier: "MainTableViewCell")
 
         self.tbvMain.delegate = self
